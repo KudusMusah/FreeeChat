@@ -1,0 +1,39 @@
+# Virtual environment
+venv/
+.env
+.env-example
+
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django-specific files
+db.sqlite3
+media/
+
+# Logs and debug files
+*.log
+
+# Ignore migrations compiled files (optional)
+**/migrations/*.pyc
+
+# Ignore VS Code settings (if you use VS Code)
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Python dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore compiled and package files
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Ignore pytest cache
+.pytest_cache/
